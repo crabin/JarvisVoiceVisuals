@@ -35,6 +35,11 @@ esbuild 的 serve 模式会在每次刷新页面时按需重新打包，改完 `
 | 回答 speaking | `assets/Speaking.gif` | <img src="assets/Speaking.gif" alt="Speaking 动画示例" width="320"> |
 | 思考 processing | `assets/Processing.gif` | <img src="assets/Processing.gif" alt="Processing 动画示例" width="320"> |
 
+## 组件文档
+
+- [粒子星球效果组件](docs/particle-sphere.md)
+- [点阵效果组件](docs/matrix.md)
+
 ## 其他命令
 
 ```bash
