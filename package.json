@@ -1,0 +1,21 @@
+{
+  "name": "jarvis-voice-visuals-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone demo of the Jarvis voice-chat visuals: WebGL particle orb + SVG dot matrix (idle / listening / speaking / processing).",
+  "scripts": {
+    "start": "esbuild src/main.tsx --bundle --outfile=public/bundle.js --jsx=automatic --servedir=public --serve=127.0.0.1:4173",
+    "build": "esbuild src/main.tsx --bundle --outfile=public/bundle.js --jsx=automatic --minify",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}
